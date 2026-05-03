@@ -1,0 +1,71 @@
+# -- Theme Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/getting-started/
+
+# 配色方案
+colorScheme = "neon"
+
+# 默认背景图（首页和文章 Hero 的备用图）
+defaultBackgroundImage = "background.jpg"
+
+# 禁用图片优化
+disableImageOptimization = false
+
+# 首页配置
+[homepage]
+  layout = "background"
+  homepageImage = "background.jpg"
+  showRecent = true
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "/posts/"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true
+
+# 顶部导航栏
+[header]
+  layout = "fixed"
+
+# 页脚
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+# 文章页
+[article]
+  showHero = true
+  heroStyle = "background"
+  showSummary = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 3
+  showDate = true
+  showDateUpdated = false
+  showAuthor = true
+  showWordCount = true
+  showReadingTime = true
+  showEdit = false
+  showZenMode = false
+  showTaxonomies = true
+  showAuthorsBadges = false
+  showFooter = true
+
+# 列表页
+[list]
+  showCards = true
+  groupByYear = false
+  cardView = true
+  showTableOfContents = false
+  showSummary = true
+
+# 作者卡片
+[author]
+  showAuthorCard = true
+
+# 图片灯箱
+[imageZoom]
+  enable = true

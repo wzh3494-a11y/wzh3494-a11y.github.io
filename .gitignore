@@ -1,8 +1,9 @@
-.DS_Store
-Thumbs.db
-db.json
-*.log
-node_modules/
+# Hugo
 public/
-.deploy*/
-_multiconfig.yml
+resources/
+.hugo_build.lock
+
+# OS
+Thumbs.db
+*.swp
+*.swo

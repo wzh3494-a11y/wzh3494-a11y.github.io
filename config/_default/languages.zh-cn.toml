@@ -1,0 +1,27 @@
+# -- Language Configuration for Chinese --
+# https://blowfish.page/docs/configuration-and-defaults/#language-and-i18n
+
+languageCode = "zh-CN"
+languageName = "简体中文"
+displayName = "中文"
+weight = 1
+rtl = false
+
+title = "Reid 的博客"
+description = "记录生活、摄影和有趣的东西"
+copyright = "© {year} Reid"
+
+[params]
+  dateFormat = "2006-01-02"
+  mainSections = ["posts"]
+  recentPosts = 6
+  favicon = "favicon.png"
+
+[author]
+  name = "Reid"
+  image = "avatar.jpg"
+  headline = "一个记录生活的人"
+  bio = "摄影 | 文章 | 视频"
+  links = [
+    { github = "https://github.com/wzh3494-a11y" }
+  ]
