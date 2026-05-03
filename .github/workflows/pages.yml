@@ -33,6 +33,7 @@ jobs:
 
       - name: Build
         run: |
+          rm -rf themes/blowfish
           git clone --depth 1 -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
           hugo --minify
 
