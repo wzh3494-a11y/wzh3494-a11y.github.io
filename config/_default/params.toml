@@ -14,7 +14,7 @@ disableImageOptimization = false
 # 首页配置
 [homepage]
   layout = "background"
-  homepageImage = "admin.jpg"
+  homepageImage = "admin.png"
   showRecent = true
   showRecentItems = 6
   showMoreLink = true
