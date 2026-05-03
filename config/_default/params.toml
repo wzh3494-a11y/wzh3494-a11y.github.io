@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 # 配色方案
-colorScheme = "neon"
+colorScheme = "khaki"
 
 # 默认背景图（首页和文章 Hero 的备用图）
 defaultBackgroundImage = "background.jpg"
@@ -14,7 +14,7 @@ disableImageOptimization = false
 # 首页配置
 [homepage]
   layout = "background"
-  homepageImage = "background.jpg"
+  homepageImage = "admin.jpg"
   showRecent = true
   showRecentItems = 6
   showMoreLink = true

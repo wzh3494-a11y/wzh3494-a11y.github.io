@@ -5,6 +5,8 @@ draft: false
 layout: "about"
 ---
 
+![Reid](/avatar.jpg)
+
 你好！我是 **Reid**，欢迎来到我的博客！
 
 ## 关于这个博客
