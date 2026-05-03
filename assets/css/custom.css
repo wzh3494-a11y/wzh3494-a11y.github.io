@@ -1,0 +1,17 @@
+/* 方正报宋_GBK 文章字体 */
+@font-face {
+    font-family: 'FangZheng BaoSong';
+    src: url('/fonts/FZBSK.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 仅应用到文章正文内容 */
+.article-content,
+.article-content p,
+.article-content li,
+.article-content blockquote,
+.prose:not(.max-w-prose) p {
+    font-family: 'FangZheng BaoSong', '宋体', 'SimSun', serif;
+}
