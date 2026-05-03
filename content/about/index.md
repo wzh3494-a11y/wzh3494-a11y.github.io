@@ -5,7 +5,7 @@ draft: false
 layout: "about"
 ---
 
-![Reid](/avatar.jpg)
+<img src="/avatar.jpg" alt="Reid" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto 20px;">
 
 你好！我是 **Reid**，欢迎来到我的博客！
 
