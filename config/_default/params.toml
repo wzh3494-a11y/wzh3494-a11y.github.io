@@ -31,7 +31,7 @@ disableTextInHeader = false
 
 # 首页配置 — 使用 hero 布局（头像+简介+最近文章）
 [homepage]
-  layout = "hero"
+  layout = "custom"
   homepageImage = "admin.png"
   showRecent = true
   showRecentItems = 6
