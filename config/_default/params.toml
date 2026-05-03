@@ -5,11 +5,29 @@
 # 配色方案
 colorScheme = "khaki"
 
+# 页面默认外观
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+# isoCode（用于 baseof.html，兼容 Hugo v0.141.0）
+isoCode = "zh-CN"
+
+# 全局功能
+enableSearch = true
+enableCodeCopy = true
+enableA11y = false
+enableStructuredBreadcrumbs = false
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
+
 # 默认背景图（首页和文章 Hero 的备用图）
 defaultBackgroundImage = "background.jpg"
 
 # 禁用图片优化
 disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
 
 # 首页配置
 [homepage]
@@ -39,6 +57,9 @@ disableImageOptimization = false
 [article]
   showHero = true
   heroStyle = "background"
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
+  showBreadcrumbs = true
   showSummary = true
   showTableOfContents = true
   showRelatedContent = true
@@ -46,21 +67,51 @@ disableImageOptimization = false
   showDate = true
   showDateUpdated = false
   showAuthor = true
+  showAuthorsBadges = true
   showWordCount = true
   showReadingTime = true
   showEdit = false
-  showZenMode = false
+  showZenMode = true
   showTaxonomies = true
-  showAuthorsBadges = false
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
   showFooter = true
+  sharingLinks = ["twitter", "facebook", "whatsapp", "telegram", "email"]
 
 # 列表页
 [list]
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
+  showBreadcrumbs = true
   showCards = true
+  showSummary = true
+  showTableOfContents = false
   groupByYear = false
   cardView = true
-  showTableOfContents = false
-  showSummary = true
+  cardViewScreenWidth = false
+  orderByWeight = true
+
+# 分类页
+[taxonomy]
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = false
+  showTableOfContents = true
+  cardView = false
+  showTermCount = true
+
+# 标签页
+[term]
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = false
+  showTableOfContents = true
+  cardView = true
+  cardViewScreenWidth = false
+  groupByYear = false
 
 # 作者卡片
 [author]
