@@ -29,9 +29,9 @@ disableImageOptimization = false
 disableImageOptimizationMD = false
 disableTextInHeader = false
 
-# 首页配置
+# 首页配置 — 使用 hero 布局（头像+简介+最近文章）
 [homepage]
-  layout = "background"
+  layout = "hero"
   homepageImage = "admin.png"
   showRecent = true
   showRecentItems = 6
@@ -39,7 +39,7 @@ disableTextInHeader = false
   showMoreLinkDest = "/posts/"
   cardView = true
   cardViewScreenWidth = false
-  layoutBackgroundBlur = true
+  layoutBackgroundBlur = false
 
 # 顶部导航栏
 [header]
