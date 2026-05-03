@@ -36,7 +36,7 @@ jobs:
           rm -rf themes/blowfish
           git clone --depth 1 -b v2.92.0 https://github.com/nunocoracao/blowfish.git themes/blowfish
           # Fix baseof.html for Hugo v0.141.0 compatibility
-          sed -i "3c\  lang=\"{{ site.Params.isoCode | default &quot;zh-CN&quot; }}\"" themes/blowfish/layouts/_default/baseof.html
+          python3 scripts/fix_baseof.py
           hugo --minify
 
       - name: Upload artifact
