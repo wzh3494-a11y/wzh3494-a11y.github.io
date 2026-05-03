@@ -2,22 +2,21 @@
 
 <section class="section">
   <div class="container">
+    <!-- Hero 区域：头像 + 站点名 + 简介 + 社交链接 -->
+    <div class="hero-homepage">
+      {{ partial "author/profile.html" . }}
+    </div>
 
-    <!-- 站点标题区 -->
-    <div class="text-center mb-12">
-      <h1 class="text-4xl font-bold">{{ site.Title }}</h1>
-      {{ with site.Params.description }}
-      <p class="mt-4 text-lg text-neutral-500 dark:text-neutral-400">{{ . }}</p>
-      {{ end }}
-      {{ with site.Params.author }}
-      {{ with .headline }}<p class="mt-2 text-neutral-400">{{ . }}</p>{{ end }}
-      {{ end }}
+    <!-- 欢迎语 -->
+    <div class="mt-8 mb-12 text-center">
+      <h2 class="text-3xl font-bold">{{ site.Title }}</h2>
+      <p class="mt-2 text-neutral-500 dark:text-neutral-400">{{ site.Params.description }}</p>
     </div>
 
     <!-- 最近文章 -->
     {{ if site.Params.homepage.showRecent }}
     <div class="mt-12">
-      <h2 class="text-2xl font-bold mb-6">{{ T "recent_articles" | default "最近的文章" }}</h2>
+      <h3 class="text-2xl font-bold mb-6">{{ T "recent_articles" | default "最近的文章" }}</h3>
       <div class="{{ if site.Params.homepage.cardView }}card-list{{ else }}article-list{{ end }}">
         {{ $posts := where site.RegularPages "Section" "posts" | first (site.Params.homepage.showRecentItems | default 6) }}
         {{ range $posts }}
@@ -32,6 +31,5 @@
       {{ end }}
     </div>
     {{ end }}
-
   </div>
 </section>
