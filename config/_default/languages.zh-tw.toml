@@ -1,0 +1,26 @@
+# -- Language Configuration for Traditional Chinese --
+
+languageCode = "zh-TW"
+languageName = "繁體中文"
+displayName = "繁體中文"
+weight = 4
+rtl = false
+
+title = "Reid 的部落格"
+description = "記錄生活、攝影和有趣的東西"
+
+[params]
+  dateFormat = "2006-01-02"
+  mainSections = ["posts"]
+  recentPosts = 6
+  favicon = "favicon.png"
+
+  [params.author]
+    name = "Reid"
+    image = "avatar.jpg"
+    headline = "一個記錄生活的人"
+    bio = "攝影 | 文章 | 影片"
+    links = [
+      { bilibili = "https://space.bilibili.com/1053272928" },
+      { github = "https://github.com/wzh3494-a11y" }
+    ]

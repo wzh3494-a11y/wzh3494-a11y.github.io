@@ -1,0 +1,26 @@
+# -- Language Configuration for English --
+
+languageCode = "en"
+languageName = "English"
+displayName = "English"
+weight = 2
+rtl = false
+
+title = "Reid's Blog"
+description = "Photography, writing, and interesting stuff"
+
+[params]
+  dateFormat = "2006-01-02"
+  mainSections = ["posts"]
+  recentPosts = 6
+  favicon = "favicon.png"
+
+  [params.author]
+    name = "Reid"
+    image = "avatar.jpg"
+    headline = "A person who records life"
+    bio = "Photography | Writing | Video"
+    links = [
+      { bilibili = "https://space.bilibili.com/1053272928" },
+      { github = "https://github.com/wzh3494-a11y" }
+    ]

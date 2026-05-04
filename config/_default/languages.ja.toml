@@ -1,0 +1,26 @@
+# -- Language Configuration for Japanese --
+
+languageCode = "ja"
+languageName = "日本語"
+displayName = "日本語"
+weight = 3
+rtl = false
+
+title = "Reid のブログ"
+description = "生活、写真、そして面白いものを記録する"
+
+[params]
+  dateFormat = "2006-01-02"
+  mainSections = ["posts"]
+  recentPosts = 6
+  favicon = "favicon.png"
+
+  [params.author]
+    name = "Reid"
+    image = "avatar.jpg"
+    headline = "生活を記録する人"
+    bio = "写真 | 文章 | 動画"
+    links = [
+      { bilibili = "https://space.bilibili.com/1053272928" },
+      { github = "https://github.com/wzh3494-a11y" }
+    ]

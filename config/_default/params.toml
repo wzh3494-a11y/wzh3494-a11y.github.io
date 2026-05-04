@@ -6,7 +6,7 @@
 colorScheme = "khaki"
 
 # 页面默认外观
-defaultAppearance = "dark"
+defaultAppearance = "light"
 autoSwitchAppearance = true
 
 # isoCode（用于 baseof.html，兼容 Hugo v0.141.0）
