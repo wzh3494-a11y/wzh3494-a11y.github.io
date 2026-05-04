@@ -9,7 +9,6 @@ rtl = false
 
 title = "Reid 的博客"
 description = "记录生活、摄影和有趣的东西"
-copyright = "© 2026 Reid"
 
 [params]
   dateFormat = "2006-01-02"
