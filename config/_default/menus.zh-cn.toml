@@ -8,6 +8,22 @@
   weight = 10
 
 [[main]]
+  name = "分类"
+  weight = 15
+
+[[main]]
+  name = "人物事迹"
+  parent = "分类"
+  url = "/categories/人物事迹/"
+  weight = 11
+
+[[main]]
+  name = "随笔"
+  parent = "分类"
+  url = "/categories/随笔/"
+  weight = 12
+
+[[main]]
   identifier = "tags"
   name = "标签"
   url = "/tags/"
@@ -18,3 +34,9 @@
   name = "关于"
   url = "/about/"
   weight = 30
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/wzh3494-a11y"
+  weight = 400
