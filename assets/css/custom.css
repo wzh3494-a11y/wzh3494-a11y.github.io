@@ -63,13 +63,12 @@
 
 /* ========== 首页视觉优化 ========== */
 
-/* 卡片悬停效果 */
-.card-group article,
-article-link-card {
+/* 卡片悬停：网格内的 article */
+section.grid article {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card-group article:hover {
+section.grid article:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
@@ -82,10 +81,4 @@ article-link-card {
 /* Hero 标题阴影 */
 h1.text-4xl.font-extrabold {
     text-shadow: 0 2px 8px rgba(0,0,0,0.2);
-}
-
-/* Content area spacing */
-.max-w-7xl .prose {
-    padding-top: 1rem;
-    margin-bottom: 2rem;
 }
