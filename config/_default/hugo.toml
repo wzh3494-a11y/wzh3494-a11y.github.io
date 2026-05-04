@@ -13,6 +13,7 @@ buildDrafts = false
 buildFuture = false
 
 enableEmoji = true
+hasCJKLanguage = true
 
 [pagination]
   pagerSize = 100
