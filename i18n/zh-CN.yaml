@@ -1,0 +1,3 @@
+# 覆写主题归属文字
+footer:
+  powered_by: "Powered by {{ .Hugo }} &amp; {{ .Theme }}."
