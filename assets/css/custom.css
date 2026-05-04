@@ -54,7 +54,9 @@
 .article-content h3,
 .article-content h4,
 .article-content h5,
-.article-content h6 {
+.article-content h6,
+.article-content strong,
+.article-content b {
     font-family: 'FangZheng HeiTi', '黑体', 'SimHei', sans-serif;
     font-weight: bold;
 }
