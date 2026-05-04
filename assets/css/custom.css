@@ -1,4 +1,4 @@
-/* 方正报宋_GBK 文章字体 */
+/* 方正报宋_GBK 文章正文字体 */
 @font-face {
     font-family: 'FangZheng BaoSong';
     src: url('/fonts/FZBSK.TTF') format('truetype');
@@ -7,11 +7,35 @@
     font-display: swap;
 }
 
-/* 仅应用到文章正文内容 */
-.article-content,
+/* 方正黑体_GBK 文章小标题字体 */
+@font-face {
+    font-family: 'FangZheng HeiTi';
+    src: url('/fonts/方正黑体_GBK.TTF') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 文章正文：小四字号，报宋字体 */
+.article-content {
+    font-family: 'FangZheng BaoSong', '宋体', 'SimSun', serif;
+    font-size: 16px;  /* 小四 = 12pt = 16px */
+    line-height: 1.75;
+}
+
 .article-content p,
 .article-content li,
-.article-content blockquote,
-.prose:not(.max-w-prose) p {
+.article-content blockquote {
     font-family: 'FangZheng BaoSong', '宋体', 'SimSun', serif;
+    font-size: 16px;
+}
+
+/* 文章小标题：黑体加粗 */
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+    font-family: 'FangZheng HeiTi', '黑体', 'SimHei', sans-serif;
+    font-weight: bold;
 }
