@@ -92,7 +92,7 @@ h1.text-4xl.font-extrabold {
 }
 
 /* 首页诗歌引言 - 居中大号斜体 */
-.prose p:first-of-type {
+.flex.flex-col.items-center.justify-center.text-center .prose p:first-of-type {
     text-align: center;
     font-size: 1.35rem;
     line-height: 1.8;
@@ -103,7 +103,7 @@ h1.text-4xl.font-extrabold {
 }
 
 /* 首页 Hi, I'm Reid 标题 */
-.prose h2 {
+.flex.flex-col.items-center.justify-center.text-center .prose h2 {
     text-align: center;
     font-size: 1.8rem;
     margin-top: 2rem;
@@ -111,14 +111,14 @@ h1.text-4xl.font-extrabold {
 }
 
 /* 首页简介段落 */
-.prose p:nth-of-type(2) {
+.flex.flex-col.items-center.justify-center.text-center .prose p:nth-of-type(2) {
     text-align: center;
     font-size: 1.1rem;
     color: var(--color-neutral-400);
 }
 
 /* 底部诗句 */
-.prose p:last-of-type {
+.flex.flex-col.items-center.justify-center.text-center .prose p:last-of-type {
     text-align: center;
     font-style: italic;
     font-size: 1rem;
@@ -127,7 +127,7 @@ h1.text-4xl.font-extrabold {
 }
 
 /* 分割线 */
-.prose hr {
+.flex.flex-col.items-center.justify-center.text-center .prose hr {
     max-width: 4rem;
     margin: 1.5rem auto;
     border-color: var(--color-neutral-300);
