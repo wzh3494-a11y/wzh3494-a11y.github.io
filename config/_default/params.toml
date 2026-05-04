@@ -34,7 +34,7 @@ copyright = "© 2026 Reid"
 
 # 首页配置
 [homepage]
-  layout = "background"
+  layout = "profile"
   homepageImage = "admin.png"
   showRecent = true
   showRecentItems = 6

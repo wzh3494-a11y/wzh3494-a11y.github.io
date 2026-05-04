@@ -22,5 +22,6 @@ description = "记录生活、摄影和有趣的东西"
   headline = "一个记录生活的人"
   bio = "摄影 | 文章 | 视频"
   links = [
+    { bilibili = "https://space.bilibili.com/1053272928" },
     { github = "https://github.com/wzh3494-a11y" }
   ]
