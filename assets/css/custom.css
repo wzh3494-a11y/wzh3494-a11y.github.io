@@ -30,6 +30,25 @@
     font-size: 16px;
 }
 
+/* 横版/宽屏：自动放大正文字号 */
+@media (min-width: 1024px) {
+    .article-content,
+    .article-content p,
+    .article-content li,
+    .article-content blockquote {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .article-content,
+    .article-content p,
+    .article-content li,
+    .article-content blockquote {
+        font-size: 20px;
+    }
+}
+
 /* 文章小标题：黑体加粗 */
 .article-content h2,
 .article-content h3,
