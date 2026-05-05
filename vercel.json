@@ -1,0 +1,7 @@
+{
+  "buildCommand": "python3 scripts/fix_baseof.py && hugo --minify",
+  "cleanUrls": true,
+  "framework": "hugo",
+  "installCommand": "",
+  "outputDirectory": "public"
+}
