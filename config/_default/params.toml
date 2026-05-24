@@ -22,7 +22,7 @@ smartTOC = true
 smartTOCHideUnfocusedChildren = false
 
 # 默认背景图（首页和文章 Hero 的备用图）
-defaultBackgroundImage = "background.jpg"
+defaultBackgroundImage = "homepage-bg.png"
 
 # 禁用图片优化
 disableImageOptimization = false
@@ -35,7 +35,7 @@ copyright = "© 2026 Reid"
 # 首页配置
 [homepage]
   layout = "background"
-  homepageImage = "homepage-bg.png"
+  homepageImage = "homepage.jpg"
   showRecent = true
   showRecentItems = 6
   showMoreLink = true
