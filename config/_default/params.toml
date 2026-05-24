@@ -35,7 +35,7 @@ copyright = "© 2026 Reid"
 # 首页配置
 [homepage]
   layout = "background"
-  homepageImage = "homepage.jpg"
+  homepageImage = "homepage-bg.png"
   showRecent = true
   showRecentItems = 6
   showMoreLink = true
