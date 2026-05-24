@@ -4,6 +4,7 @@ date: 2026-05-23
 draft: false
 categories: ["随笔"]
 tags: ["记录"]
+featureimage = "featured.png"
 ---
 
 > 这件事很长，还请你耐心看完。
