@@ -25,7 +25,8 @@ featureimage: "Exam_relay.png"
   一转眼，来到高一下学期。又是一个毕业季！只不过高中学校不会举行送行活动。我仍然提起笔，为一位高三的同学写了一篇毕业祝福。我也希望，他能借我的这篇祝福，考上心仪的大学！我也希望，有更多的同学为他们送行，至少他们不会感到空虚，不觉得自己是孤军奋战！
 
 > 请允许我将《Your Star》送给每一个奔赴考场的考生！
-> <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 20px 0;">
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=854856395&bvid=BV1UL4y1P7Jd&cid=740929379&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" allow="autoplay; encrypted-media; fullscreen" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
 
