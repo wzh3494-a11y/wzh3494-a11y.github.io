@@ -71,6 +71,16 @@
     font-weight: bold;
 }
 
+/* 引用块取消斜体和自动引号 */
+.prose blockquote {
+    font-style: normal;
+}
+
+.prose blockquote p:first-of-type::before,
+.prose blockquote p:last-of-type::after {
+    content: none;
+}
+
 /* ========== 首页视觉优化 ========== */
 
 /* 卡片悬停：网格内的 article */
