@@ -81,6 +81,7 @@ copyright = "© 2026 Reid"
   showPagination = true
   invertPagination = false
   showFooter = true
+  showComments = true
   sharingLinks = ["twitter", "facebook", "whatsapp", "telegram", "email"]
 
 # 列表页
