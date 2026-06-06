@@ -6,11 +6,11 @@ categories: ["随笔"]
 tags: ["感悟"]
 featureimage: "Exam_relay.png"
 ---
-> 在终点之前奔驰的黎明，
-  高悬的远星也照耀着你。
-  放声高歌，
-  张开双臂，
-  去迎接日出吧。
+> 在终点之前奔驰的黎明，  
+> 高悬的远星也照耀着你。  
+> 放声高歌，  
+> 张开双臂，  
+> 去迎接日出吧。
   
   不知道各位读者在中学时期有没有过这样的感受：每当送毕业生去考场的时候，心情是既兴奋又紧张的，还夹杂着一些迷茫的情绪的。我就一直有这样的感受。
 
@@ -25,7 +25,9 @@ featureimage: "Exam_relay.png"
   一转眼，来到高一下学期。又是一个毕业季！只不过高中学校不会举行送行活动。我仍然提起笔，为一位高三的同学写了一篇毕业祝福。我也希望，他能借我的这篇祝福，考上心仪的大学！我也希望，有更多的同学为他们送行，至少他们不会感到空虚，不觉得自己是孤军奋战！
 
 > 请允许我将《Your Star》送给每一个奔赴考场的考生！
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=854856395&bvid=BV1UL4y1P7Jd&cid=740929379&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+> <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=854856395&bvid=BV1UL4y1P7Jd&cid=740929379&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" allow="autoplay; encrypted-media; fullscreen" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
 
   致——所有奔赴考场的同学，一路顺风！
                                           
