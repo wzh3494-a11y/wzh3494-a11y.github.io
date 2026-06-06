@@ -4,7 +4,7 @@ date: 2026-06-05
 draft: false
 categories: ["随笔"]
 tags: ["感悟"]
-featureimage: "Exam_relay.png"
+featureimage: "background.png"
 ---
 > 在终点之前奔驰的黎明，  
 > 高悬的远星也照耀着你。  
