@@ -24,8 +24,9 @@ featureimage: "Exam_relay.png"
 
   一转眼，来到高一下学期。又是一个毕业季！只不过高中学校不会举行送行活动。我仍然提起笔，为一位高三的同学写了一篇毕业祝福。我也希望，他能借我的这篇祝福，考上心仪的大学！我也希望，有更多的同学为他们送行，至少他们不会感到空虚，不觉得自己是孤军奋战！
 
-> 请允许我将《Your Star》送给每一个奔赴考场的考生！<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=854856395&bvid=BV1UL4y1P7Jd&cid=740929379&p=1" scrolling="no" &autoplay=1 border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+> 请允许我将《Your Star》送给每一个奔赴考场的考生！
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=854856395&bvid=BV1UL4y1P7Jd&cid=740929379&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
   致——所有奔赴考场的同学，一路顺风！
                                           
-                                                                            六月五日。
+六月五日。
