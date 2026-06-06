@@ -76,6 +76,11 @@
     font-style: normal;
 }
 
+/* 文章第一个引用块保留斜体（用于诗歌引言） */
+.article-content blockquote:first-of-type {
+    font-style: italic;
+}
+
 .prose blockquote p:first-of-type::before,
 .prose blockquote p:last-of-type::after {
     content: none;
