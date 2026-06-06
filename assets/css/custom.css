@@ -30,6 +30,16 @@
     font-size: 16px;
 }
 
+/* 段落首行缩进两格 */
+.article-content p {
+    text-indent: 2em;
+}
+
+/* 引用块内段落不缩进 */
+.article-content blockquote p {
+    text-indent: 0;
+}
+
 /* 横版/宽屏：自动放大正文字号 */
 @media (min-width: 1024px) {
     .article-content,

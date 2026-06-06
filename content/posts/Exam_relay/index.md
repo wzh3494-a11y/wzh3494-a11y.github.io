@@ -31,5 +31,5 @@ featureimage: "background.png"
 </div>
 
   致——所有奔赴考场的同学，一路顺风！
-                                          
-六月五日。
+
+<div style="text-align: right;">六月五日。</div>
