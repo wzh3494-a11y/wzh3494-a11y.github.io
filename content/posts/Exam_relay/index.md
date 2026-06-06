@@ -5,6 +5,7 @@ draft: false
 categories: ["随笔"]
 tags: ["感悟"]
 featureimage: "background.png"
+showComments: true
 ---
 > 在终点之前奔驰的黎明，  
 > 高悬的远星也照耀着你。  
