@@ -25,11 +25,96 @@ showComments: true
 
   一转眼，来到高一下学期。又是一个毕业季！只不过高中学校不会举行送行活动。我仍然提起笔，为一位高三的同学写了一篇毕业祝福。我也希望，他能借我的这篇祝福，考上心仪的大学！我也希望，有更多的同学为他们送行，至少他们不会感到空虚，不觉得自己是孤军奋战！
 
-> 请允许我将《Your Star》送给每一个奔赴考场的考生！
->
-> <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 20px 0;">
-> <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=854856395&bvid=BV1UL4y1P7Jd&cid=740929379&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" allow="autoplay; encrypted-media; fullscreen" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-> </div>
+<blockquote>
+<p>在这个六月，我想把五月天的这首《笑忘歌》，轻轻送给每一个正在奔赴考场的你——愿你在合上笔盖的那一刻，有着战士收刀入鞘般的骄傲。</p>
+
+<!-- ===== 音乐播放器卡片（含自动播放） ===== -->
+<div style="
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.2rem 1.8rem;
+  background: var(--color-neutral-100, #f3f4f6);
+  padding: 1.2rem 1.5rem;
+  border-radius: 1.2rem;
+  margin: 1.5rem 0;
+  border: 1px solid var(--color-neutral-200, #e5e7eb);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+">
+  <!-- 左侧：专辑封面 -->
+  <div style="
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #d1d5db;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  ">
+    <img 
+      src="./3000x3000bb.jpg" 
+      alt="五月天《后青春期的诗》专辑封面"
+      style="width: 100%; height: 100%; object-fit: cover; display: block;"
+    >
+  </div>
+
+  <!-- 右侧：歌曲信息 + 播放器 -->
+  <div style="flex: 1; min-width: 200px; text-align: left;">
+    <p style="
+      font-weight: 700;
+      font-size: 1.05rem;
+      margin: 0 0 2px 0;
+      color: var(--color-neutral-800, #1f2937);
+    ">
+      🎵 笑忘歌
+    </p>
+    <p style="
+      font-size: 0.8rem;
+      color: var(--color-neutral-500, #6b7280);
+      margin: 0 0 0.4rem 0;
+    ">
+      五月天 · 后青春期的诗
+    </p>
+
+    <!-- 
+      ★★★★★ 音频播放器 ★★★★★
+      1. 加了 autoplay 属性，打开页面会尝试自动播放。
+      2. 请把下面 src="./笑忘歌.flac" 里的文件名，改成你实际的文件名（比如 歌曲.flac）。
+      3. 如果浏览器不支持 FLAC，可以准备一份 MP3 备用，取消下面第二行 source 的注释即可。
+    -->
+    <audio 
+      controls 
+      autoplay 
+      preload="auto" 
+      style="
+        width: 100%;
+        max-width: 320px;
+        height: 42px;
+        border-radius: 6px;
+        outline: none;
+        background: transparent;
+      "
+    >
+      <source src="./五月天 笑忘歌.flac" type="audio/flac">
+      <!-- 备用格式（如需 MP3，请取消下面这行的注释，并把文件名改成你的 mp3 文件） -->
+      <!-- <source src="./笑忘歌.mp3" type="audio/mpeg"> -->
+      抱歉，您的浏览器不支持 HTML5 音频。
+    </audio>
+
+    <p style="
+      font-size: 0.78rem;
+      color: var(--color-neutral-400, #9ca3af);
+      margin: 6px 0 0 0;
+      font-style: italic;
+      letter-spacing: 0.3px;
+    ">
+      “这一生只愿只要平凡快乐，谁说这样不伟大呢。”
+    </p>
+  </div>
+</div>
+<!-- ===== 播放器结束 ===== -->
+
+</blockquote>
 
   致——所有奔赴考场的同学，一路顺风！
 
