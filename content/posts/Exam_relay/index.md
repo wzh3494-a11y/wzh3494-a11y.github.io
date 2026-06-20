@@ -28,7 +28,7 @@ showComments: true
 <blockquote>
 <p style="font-size:0.875em;font-style:italic;">在这个六月，我想把五月天的这首《笑忘歌》，轻轻送给每一个正在奔赴考场的你——愿你在合上笔盖的那一刻，有着战士收刀入鞘般的骄傲。</p>
 
-{{< audio-player file="五月天 笑忘歌.flac" title="笑忘歌" artist="五月天" album="后青春期的诗" cover="3000x3000bb.jpg" >}}
+{{< audio-player file="干杯.mp3" title="干杯" artist="五月天" album="第二人生 (末日版)" cover="第二人生.jpg" >}}
 
 </blockquote>
 
