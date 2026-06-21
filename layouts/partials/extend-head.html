@@ -1,3 +1,19 @@
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-<script>LA.init({id:"3QAWNUiu167cUw5h",ck:"3QAWNUiu167cUw5h"})</script>
+<!-- 统计脚本延迟加载：不阻塞页面渲染 -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function() {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';
+    document.body.appendChild(s);
+  }, 3000);
+  setTimeout(function() {
+    var s = document.createElement('script');
+    s.async = true;
+    s.charset = 'UTF-8';
+    s.src = '//sdk.51.la/js-sdk-pro.min.js';
+    s.onload = function() { LA.init({id:"3QAWNUiu167cUw5h",ck:"3QAWNUiu167cUw5h"}) };
+    document.body.appendChild(s);
+  }, 5000);
+});
+</script>
